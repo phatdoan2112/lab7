@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+}
+.prod {
+    width:25%;
+    height: 200px;
+    float:left;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px  gray;
+    position:relative
+}
+.name {
+    /* text-align: center; */
+    color: darkgoldenrod;
+    font-variant: small-caps;
+}
+.prod img {
+    height: 150px;
+    margin-bottom: 10px;
+}
+.price {
+    position:absolute;
+    left:5 pixel;
+    bottom:5 pixel;
+    font-family: Impact;
+    font-size:25 pixel;
+    color:orange;
+
+}
